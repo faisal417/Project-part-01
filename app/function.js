@@ -68,3 +68,13 @@ const readlsData = (key) =>{
         return false;
     }
 }
+
+
+/**
+ * Updata ls data (for updata product)
+ */
+
+
+const updataLsData=(key, array)=>{
+    localStorage.setItem(key, JSON.stringify(array))
+}
