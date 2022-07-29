@@ -86,7 +86,6 @@ productForm.onsubmit = (e) =>{
         msg.innerHTML = setAlert('All fields are required');
     }else{
 
-
         createLsData('product', productData)
 
         msg.innerHTML = setAlert('Data Stable','success');
